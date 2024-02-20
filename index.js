@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
 // Database connection
-mongoose.connect("mongodb+srv://raymondregoso:admin123@cluster0.tzc7fco.mongodb.net/capstone_2?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv:this is secret ^_^ ", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
